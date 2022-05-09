@@ -14,7 +14,8 @@ public class FindVowel {
             if (check == a || check == A)
                 System.out.println("Vowel");
 
-            else if (check == e || check == E)
+            else
+                if (check == e || check == E)
                 System.out.println("Vowel");
 
             else if (check == i || check == I)
