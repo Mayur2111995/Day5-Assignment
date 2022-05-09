@@ -1,6 +1,6 @@
 package Ch136_Bridgelabz;
 
-public class EmpWageByOops {
+public class EmployeeWageByOops {
     final static int WAGE_PER_HRS = 20;
     final static int FULL_DAY_HRS = 8;
     final static int PART_TIME_HRS = 4;
@@ -10,7 +10,7 @@ public class EmpWageByOops {
     final static int DAY_PER_MONTH = 20;
 
     /**
-     * @empWage is a method for calculating monthly wage
+     * @EmployeeWageByOops is a method for calculating monthly wage
      */
     public void empWage() {
 
@@ -56,9 +56,8 @@ public class EmpWageByOops {
     public static void main(String[] args) {
 
         System.out.println("Welcome To Employee Wage Computation Program");
-        EmpWageByOops obj = new EmpWageByOops(); // object of class
+        EmployeeWageByOops obj = new EmployeeWageByOops(); // object of class
         obj.empWage();
     }
 
 }
-
